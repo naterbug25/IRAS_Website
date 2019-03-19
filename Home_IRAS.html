@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>W3.CSS Template</title>
+<title>IRAS Lab</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -21,10 +21,9 @@ body {font-size:16px;}
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
-    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
-    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
-    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
+    <a href="#About" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a> 
+    <a href="#Projects" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projects</a> 
+    <a href="#Engineers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Engineers & Students</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
   </div>
 </nav>
@@ -44,22 +43,33 @@ body {font-size:16px;}
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
     <h1 class="w3-jumbo"><b>Intelligent Robotics and Autonomous Systems</b></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>Showcase</b></h1>
+  </div>
+
+    <!-- About -->
+  <div class="w3-container" id="About" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>About Us</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
+	 <p>THE ALL CAPS IS INFO I NEED</p>
+    <p>We are a robotics and automation lab located at the University of Cincinnati. We research various robotics and autonomous systems with a wide variety of equipment on hand. The lab consists of several research associates, graduate students, and undergraduate students.  </p>
+    <p>We have a BLANK XYZ Camera system to DO SOME COOL STUFF. This camera system is used in conjunction with specialized treadmills that are capable of XYZ. With this technology we are capable to monitor human and robot interactions with the camera system. We have three robotic arms, two Kuka iiwas and one Fanuc CR35iA robots. These robotic arms have been used in various research projects including facial tracking and human collaboration. We have a room dedicated to two large granite tables. These tables are used for SOME REAL COOL STUFF. 
+    </p>
   </div>
   
+  <!-- Projects -->
   <!-- Photo grid (modal) -->
-  <div class="w3-row-padding">
+  <div class="w3-row-padding" id="Projects">
+      <h1 class="w3-xxxlarge w3-text-red"><b>Projects</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
     <div class="w3-half">
-      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/n_XgWMpbdn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/J1JIl0rqngE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="Project Image Display Error">
     </div>
 
     <div class="w3-half">
-      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
-      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
-      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Project Image Display Error">
+      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Project Image Display Error">
+      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Project Image Display Error">
     </div>
   </div>
 
@@ -71,61 +81,48 @@ body {font-size:16px;}
       <p id="caption"></p>
     </div>
   </div>
-
-  <!-- Services -->
-  <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Services</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
-    <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-  </div>
   
-  <!-- Designers -->
-  <div class="w3-container" id="designers" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Designers</b></h1>
+  <!-- Engineers & Students -->
+  <div class="w3-container" id="Engineers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Engineers & Students</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>The best team in the world.</p>
-    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-    <p><b>Our designers are thoughtfully chosen</b>:</p>
+    <p>The team consists of highly skilled people that are dedicated to their work.</p>
   </div>
 
   <!-- The Team Row 1 -->
   
   <!-- Add links to projects one? -->
   
-  <div class="w3-row-padding w3-grayscale">
+  <div class="w3-row-padding">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="https://github.com/naterbug25/IRAS_Website/Images/Ou.jpg" alt="Dr. Ma" style="width:100%">
+        <img src="https://naterbug25.github.io/IRAS_Website/Images/People/Ou.jpg" alt="Dr. Ma" style="width:100%">
         <div class="w3-container">
           <h3>Dr. Ma PhD.</h3>
           <p class="w3-opacity">Alan B. Shepard Chair</p>
+		  <p class="w3-opacity">!!!SCHOOL!!!</p>
           <p>ADD STUFF</p>
         </div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="https://github.com/naterbug25/IRAS_Website/Images/Error_404.jpg" alt="Lin Zhang" style="width:100%">
+      <div class="w3-light-grey"">
+        <img src="https://naterbug25.github.io/IRAS_Website/Images/People/Lin_Zhang.jpg" alt="Lin Zhang" style="width:100%">
         <div class="w3-container">
           <h3>Lin Zhang PhD.</h3>
-          <p class="w3-opacity">Lab Manager</p>
-          <p>ADD STUFF</p>
+          <p class="w3-opacity">Senior Research Associate</p>
+		  <p class="w3-opacity"> New Mexico State University<br/> asters in Engineering</p>
+          <p>Can robots learn and improve their skills through practice?<br />Lin is devoted to answer this question with the help of deep reinforcement learning. Lin builds Gazebo environments, plays simulated robots with ROS and train neural networks on his robots using TensorFlow. <br />Check his github (https://github.com/linZHank)</p>
         </div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="https://github.com/naterbug25/IRAS_Website/Images/Error_404.jpg" alt="Anoop Sathyan" style="width:100%">
+        <img src="https://naterbug25.github.io/IRAS_Website/Images/People/Error_404.jpg" alt="Anoop Sathyan" style="width:100%; max-height:300px">
         <div class="w3-container">
           <h3>Anoop Sathyan PhD.</h3>
           <p class="w3-opacity">Research Assistant</p>
+		  <p class="w3-opacity">!!!SCHOOL!!!</p>
           <p>ADD STUFF</p>
         </div>
       </div>
@@ -133,33 +130,36 @@ body {font-size:16px;}
   </div>
 
     <!-- The Team Row 2-->
-  <div class="w3-row-padding w3-grayscale">
+  <div class="w3-row-padding">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="https://github.com/naterbug25/IRAS_Website/Images/Ou.jpg" alt="Dr. Ma" style="width:100%">
+        <img src="https://naterbug25.github.io/IRAS_Website/Images/People/Error_404.jpg" alt="ERROR" style="width:100%; max-height:300px">
         <div class="w3-container">
           <h3>Nathan Huber</h3>
           <p class="w3-opacity">Student Research Assistant</p>
+		  <p class="w3-opacity">!!!SCHOOL!!!</p>
           <p>ADD STUFF</p>
         </div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="https://github.com/naterbug25/IRAS_Website/Images/Error_404.jpg" alt="Lin Zhang" style="width:100%">
+        <img src="https://naterbug25.github.io/IRAS_Website/Images/People/Error_404.jpg" alt="ERROR" style="width:100%; max-height:300px">
         <div class="w3-container">
           <h3>Andy ABC 123</h3>
           <p class="w3-opacity">ABC 123</p>
+		  <p class="w3-opacity">!!!SCHOOL!!!</p>
           <p>ADD STUFF</p>
         </div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="https://github.com/naterbug25/IRAS_Website/Images/Error_404.jpg" alt="Mike" style="width:100%">
+        <img src="https://naterbug25.github.io/IRAS_Website/Images/People/Error_404.jpg" alt="ERROR" style="width:100%; max-height:300px">
         <div class="w3-container">
           <h3>Caleb Bisig</h3>
           <p class="w3-opacity">Student Research Assistant</p>
+		  <p class="w3-opacity">!!!SCHOOL!!!</p>
           <p>ADD STUFF</p>
         </div>
       </div>
@@ -167,33 +167,36 @@ body {font-size:16px;}
   </div>
   
       <!-- The Team Row 3-->
-  <div class="w3-row-padding w3-grayscale">
+  <div class="w3-row-padding">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="https://github.com/naterbug25/IRAS_Website/Images/Ou.jpg" alt="Dr. Ma" style="width:100%">
+        <img src="https://naterbug25.github.io/IRAS_Website/Images/People/Huber.jpg" alt="ERROR" style="width:100%; max-height:300px">
         <div class="w3-container">
-          <h3>ABC 123</h3>
-          <p class="w3-opacity">ABC 123</p>
-          <p>ADD STUFF</p>
+          <h3>Nathan Huber</h3>
+          <p class="w3-opacity">Undergraduate Student</p>
+		  <p class="w3-opacity">University of Cincinnati<br/>Bacholors in Electrical Engineering Technology<br />Minor in Robotics and Automation</p>
+          <p>Nathan works on a variety of projects pertaining to collaborative robotics and automation by utizing two Kuka iiwa's and a Fanuc CR35iA. These projects consist of facial tracking and object tracking with the robotic arms and for the robotics systems to work collaboratively with humans by utilzing vision processing.</p>
         </div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="https://github.com/naterbug25/IRAS_Website/Images/Error_404.jpg" alt="Lin Zhang" style="width:100%">
+        <img src="https://naterbug25.github.io/IRAS_Website/Images/People/Eric_Sun.jpg" alt="Eric Sun" style="width:100%; max-height:300px">
         <div class="w3-container">
-          <h3>ABC 123</h3>
-          <p class="w3-opacity">ABC 123</p>
-          <p>ADD STUFF</p>
+          <h3>Yufeng Sun</h3>
+          <p class="w3-opacity">Graduate Student</p>
+		  <p class="w3-opacity">Huazhong University of Science and Technology<br /> Masters in Software Engineering</p>
+          <p>Yufeng joined UC as a graduate student in January, 2019 and is currently researching on robot control with heuristic approaches (reinforcement learning and fuzzy logic).</p>
         </div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="https://github.com/naterbug25/IRAS_Website/Images/Error_404.jpg" alt="Mike" style="width:100%">
+        <img src="https://naterbug25.github.io/IRAS_Website/Images/People/Error_404.jpg" alt="ERROR" style="width:100%; max-height:300px">
         <div class="w3-container">
-          <h3>ABC 123</h3>
-          <p class="w3-opacity">ABC 123</p>
+          <h3>FILL_THIS_IN</h3>
+          <p class="w3-opacity">FILL_THIS_IN</p>
+		  <p class="w3-opacity">!!!FILL_THIS_IN!!!</p>
           <p>ADD STUFF</p>
         </div>
       </div>
@@ -205,20 +208,22 @@ body {font-size:16px;}
     <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>Do you have questions on our projects? Send us an email!</p>
-    <form action="/action_page.php" target="_blank">
+	
+	
+    <form action="https://formspree.io/irasatuc@gmail.com"  method="POST" target="_blank">
       <div class="w3-section">
         <label>Name</label>
         <input class="w3-input w3-border" type="text" name="Name" required>
       </div>
       <div class="w3-section">
         <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
+        <input class="w3-input w3-border" type="email" name="Email" required>
       </div>
       <div class="w3-section">
         <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
+        <input class="w3-input w3-border" type="comment" name="Message" required>
       </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+      <button value="Send" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
     </form>  
   </div>
 
@@ -226,7 +231,7 @@ body {font-size:16px;}
 </div>
 
 <!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right"> <a href="www.natehuber.com" title="W3.CSS" target="_blank" class="w3-hover-opacity">Nathan Huber</a></p></div>
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right"> <a href="http://www.natehuber.com/" title="Nathan Huber" target="_blank" class="w3-hover-opacity">Nathan Huber</a></p></div>
 
 <script>
 // Script to open and close sidebar
